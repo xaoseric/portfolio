@@ -6,6 +6,10 @@
 
 <script>
 export default {
-  name: "Home"
+  name: "Home",
+  metaInfo: {
+    title: "Home",
+    titleTemplate: "%s - Eric's Space"
+  }
 }
 </script>

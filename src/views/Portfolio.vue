@@ -6,7 +6,11 @@
 
 <script>
 export default {
-  name: "Portfolio"
+  name: "Portfolio",
+  metaInfo: {
+    title: "Portfolio",
+    titleTemplate: "%s - Eric's Space"
+  }
 }
 </script>
 

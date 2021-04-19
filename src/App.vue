@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-content>
+    <v-main>
       <v-container align-center>
         <Header />
 
@@ -12,7 +12,7 @@
           <router-view></router-view>
         </transition>
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 

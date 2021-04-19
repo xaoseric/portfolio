@@ -43,7 +43,11 @@
 
 <script>
 export default {
-  name: "Resume"
+  name: "Resume",
+  metaInfo: {
+    title: "Resume",
+    titleTemplate: "%s - Eric's Space"
+  }
 }
 </script>
 
