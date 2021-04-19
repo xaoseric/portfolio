@@ -38,6 +38,11 @@
       </v-timeline>
     </v-card-text>
   </v-flex>
+
+  <h2>
+    <span>My</span>
+    <span class="green--text"> Skills</span>
+  </h2>
 </v-layout>
 </template>
 
@@ -47,10 +52,17 @@ export default {
   metaInfo: {
     title: "Resume",
     titleTemplate: "%s - Eric's Space"
+  },
+  methods: {
+    getImgUrl(img) {
+      return require('../assets/images/logos/'+img);
+    }
   }
 }
 </script>
 
 <style scoped>
-
+.imgLogo {
+  max-width: 120px;
+}
 </style>
