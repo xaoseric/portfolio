@@ -4,10 +4,12 @@ import router from './router';
 import store from './store';
 import vuetify from '@/plugins/vuetify';
 import Vuelidate from 'vuelidate';
+import VueTyperPlugin from 'vue-typer'
 
 Vue.config.productionTip = false
 
 Vue.use(Vuelidate);
+Vue.use(VueTyperPlugin);
 
 new Vue({
   router,
