@@ -14,6 +14,21 @@
         :erase-on-complete="false"
         caret-animation="smooth"
     ></vue-typer>
+
+    <v-flex xs12 sm6 md4 lg4 xl4 class="mt-3">
+      <v-card flat color="transparent" max-width="500px">
+        <v-card-title>
+          <h3 class="headline mb-0">
+            <span>About</span>
+            <span class="green--text"> Me</span>
+          </h3>
+        </v-card-title>
+        <v-card-text>
+          Hello, I'm Eric Hocking. I'm a System Administrator and self taught
+          developer who is passionate about technology.
+        </v-card-text>
+      </v-card>
+    </v-flex>
   </v-layout>
 </template>
 
@@ -36,3 +51,25 @@ export default {
   }
 }
 </script>
+
+<style>
+.vue-typer {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.vue-typer .custom.char.typed {
+  color: green;
+}
+.vue-typer .custom.char.selected {
+  color: #e91e63;
+}
+.vue-typer .custom.caret {
+  animation: rocking 1s ease-in-out 0s infinite;
+}
+.vue-typer .custom.caret.typing {
+  background-color: green;
+}
+.vue-typer .custom.caret.selecting {
+  display: inline-block;
+  background-color: #e91e63;
+}
+</style>
