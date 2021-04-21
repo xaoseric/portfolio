@@ -47,9 +47,26 @@
   </h2>
 
   <div class="d-flex flex-wrap flex-row mt-3">
-    <v-card class="mr-3 pa-2" width="125" v-for="skill in skills" v-bind:key="skill.name">
+    <v-card class="mr-3 mb-2 pa-2" width="125" v-for="skill in skills" v-bind:key="skill.name">
       <v-img class="imgLogo mt-2" :src="getImgUrl(skill.image)" />
       <v-card-title class="justify-center align-center">{{ skill.name }}</v-card-title>
+    </v-card>
+  </div>
+
+  <h2 class="mt-4">
+    <span>My</span>
+    <span class="green--text"> Certifications</span>
+  </h2>
+
+  <div class="d-flex flex-wrap flex-fow mt-3">
+    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=d739bd0fa413b181dc8b8368af7515f180613475">
+      <v-img width="120px" :src="getCertImg('fortinet/1-associate-logo.png')" />
+    </v-card>
+    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=8d45b4133a1808576d7b975e159711026c14efed">
+      <v-img width="120px" :src="getCertImg('fortinet/2-associate-logo.png')" />
+    </v-card>
+    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=8a09285106704259214b8209f455a6b7ea9e5a6b">
+      <v-img width="120px" :src="getCertImg('fortinet/3-associate-logo.png')" />
     </v-card>
   </div>
 </v-layout>
@@ -99,6 +116,9 @@ export default {
   methods: {
     getImgUrl(img) {
       return require('../assets/images/logos/'+img);
+    },
+    getCertImg(img) {
+      return require('../assets/images/certs/'+img);
     }
   }
 }

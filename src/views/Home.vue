@@ -8,8 +8,8 @@
         initial-action="erasing"
         :pre-type-delay="70"
         :type-delay="70"
-        :pre-erase-delay="1980"
-        :erase-delay="150"
+        :pre-erase-delay="2000"
+        :erase-delay="250"
         erase-style="select-back"
         :erase-on-complete="false"
         caret-animation="smooth"
@@ -31,7 +31,7 @@ export default {
   },
   data() {
     return {
-      typerText: ['System Administrator', 'Software Developer', 'Backend Developer']
+      typerText: ["System Administrator", "Software Developer", "Backend Developer"]
     }
   }
 }
