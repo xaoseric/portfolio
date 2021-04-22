@@ -23,6 +23,12 @@
     <v-card-text>Skimur is an open source C# implementation of Reddit. I forked the old version of
     it and updated it to run on .NET Core 3.1</v-card-text>
   </v-card>
+  <v-card href="https://github.com/PyDNS/PyDNS" target="_blank"
+          max-width="250px" class="pa-2 mr-2 mb-2">
+    <v-card-title>PyDNS</v-card-title>
+    <v-card-subtitle>Maintainer & Lead Developer</v-card-subtitle>
+    <v-card-text>Python 3 based dns server, currently a work in progress</v-card-text>
+  </v-card>
 </v-layout>
 </template>
 
