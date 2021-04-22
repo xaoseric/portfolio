@@ -13,7 +13,7 @@ export default {
   name: "Footer",
   computed: {
     fixedFooter() {
-      if (this.$route.path === '/' || this.$route.path === '/contact') {
+      if (this.$route.path === '/' || this.$route.path === '/contact' || this.$route.path === '/portfolio') {
         return true;
       } else {
         return false;
