@@ -59,13 +59,13 @@
   </h2>
 
   <div class="d-flex flex-wrap flex-fow mt-3">
-    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=d739bd0fa413b181dc8b8368af7515f180613475">
+    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=d739bd0fa413b181dc8b8368af7515f180613475" target="_blank">
       <v-img width="120px" :src="getCertImg('fortinet/1-associate-logo.png')" />
     </v-card>
-    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=8d45b4133a1808576d7b975e159711026c14efed">
+    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=8d45b4133a1808576d7b975e159711026c14efed" target="_blank">
       <v-img width="120px" :src="getCertImg('fortinet/2-associate-logo.png')" />
     </v-card>
-    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=8a09285106704259214b8209f455a6b7ea9e5a6b">
+    <v-card class="mr-3 pa-2" width="125" href="https://training.fortinet.com/badges/badge.php?hash=8a09285106704259214b8209f455a6b7ea9e5a6b" target="_blank">
       <v-img width="120px" :src="getCertImg('fortinet/3-associate-logo.png')" />
     </v-card>
   </div>
