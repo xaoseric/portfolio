@@ -81,5 +81,4 @@ export default {
   display: inline-block;
   background-color: #e91e63;
 }
-
 </style>
