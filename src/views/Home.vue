@@ -27,6 +27,15 @@
           Hello, I'm Eric Hocking. I'm a System Administrator and self taught
           developer who is passionate about technology.
         </v-card-text>
+
+        <v-card-actions class="justify-center">
+          <v-btn fab href="https://github.com/xaoseric">
+            <v-icon>fab fa-github</v-icon>
+          </v-btn>
+          <v-btn fab href="https://www.linkedin.com/in/eric-hocking-4a5943123/">
+            <v-icon>fab fa-linkedin-in</v-icon>
+          </v-btn>
+        </v-card-actions>
       </v-card>
     </v-flex>
   </v-layout>
@@ -72,4 +81,5 @@ export default {
   display: inline-block;
   background-color: #e91e63;
 }
+
 </style>
