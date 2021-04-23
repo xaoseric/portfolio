@@ -32,7 +32,7 @@
           <v-btn fab href="https://github.com/xaoseric" target="_blank">
             <v-icon>fab fa-github</v-icon>
           </v-btn>
-          <v-btn fab href="https://www.linkedin.com/in/eric-hocking-4a5943123/" target="_blank">
+          <v-btn fab href="https://www.linkedin.com/in/eric-hocking/" target="_blank">
             <v-icon>fab fa-linkedin-in</v-icon>
           </v-btn>
         </v-card-actions>
