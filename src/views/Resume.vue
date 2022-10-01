@@ -27,8 +27,20 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">April 2018 -</div>
+                <div class="caption font-weight-bold green--text">June 2021 -</div>
                 <div class="caption font-weight-bold green--text">Present</div>
+              </v-flex>
+              <v-flex class="pl-2">
+                <strong>Senior Analyst, Cloud Platform</strong>
+                <div class="caption mb-2">Virtustream</div>
+              </v-flex>
+            </v-layout>
+          </v-timeline-item>
+          <v-timeline-item color="green" small>
+            <v-layout pt-3>
+              <v-flex xs4>
+                <div class="caption font-weight-bold green--text">April 2018 -</div>
+                <div class="caption font-weight-bold green--text">May 2021</div>
               </v-flex>
               <v-flex class="pl-2">
                 <strong>System Administrator/Support Engineer</strong>
